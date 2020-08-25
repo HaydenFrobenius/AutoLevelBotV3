@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"></link>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/app.js"></script>
+    <title>AutoLevelBot V3 - Home</title>
+</head>
+<body>
+    <center>
+        
+        <h1 class="title">Welcome to AutoLevelBot V3!</h1>
+
+        <p class="description">AutoLevelBot V3 is a free Discord self bot service that requires nothing other than a browser! <br> It can send messages to automatically gain levels on bots like MEE6.</p>
+
+        <p class="description2">We do not log tokens on our servers. If you are still unsure about this feel free to use an alt. <br> If you started AutoLevelBotV3 but it doesn't show a stop button and is still running, you can forcefully stop it <a class="description2" href="forcequit.html">here</a>.</p>
+
+        <label for="token">Discord Token:</label>
+        <input type="text" id="token" name="token">
+
+        <br>
+
+        <label for="channelID">Channel ID:</label>
+        <input type="text" id="channelID" name="channelID">
+
+        <br>
+
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message">
+
+        <br>
+
+        <button class="toggleBot" id="toggleBot" name="toggleBot">Start AutoLevelBot V3</button>
+
+        <h4 id="resultText"></h4>
+
+        <p class="credits">Made by MasonTheCreeper! Visit my github page <a class="description2" href="https://github.com/MasonTheCreeper/AutoLevelBotV3">here</a>.</p>
+
+    </center>
+
+    
+</body>
+</html>

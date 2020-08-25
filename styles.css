@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(237, 118, 38);
+    background: linear-gradient(to top,rgb(255, 120, 31),rgb(255, 153, 0));
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.title {
+    color: white;
+    margin-top: 7%;
+}
+
+.description {
+    color: white;
+    white-space: pre-line;
+    margin-top: 2%;
+    font-weight: 545;
+}
+
+.description2 {
+    color: white;
+    white-space: pre-line;
+    margin-top: 1%;
+    font-weight: 545;
+}
+
+input[type=text] {
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.getStarted {
+    color: white;
+}
+
+.toggleBot {
+    width: 30%;
+    border: 0px solid black;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+.credits {
+    color: white;
+    white-space: pre-line;
+    margin-top: 9%;
+}
+
+.creditsFQ {
+    color: white;
+    white-space: pre-line;
+    margin-top: 19%;
+}
