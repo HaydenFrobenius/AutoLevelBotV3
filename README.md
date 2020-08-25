@@ -9,4 +9,4 @@ AutoLevelBotV3 can be found hosted on heroku at https://autolevelbotv3.herokuapp
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MasonTheCreeper/AutoLevelBotV3)
 
-To use this outside of heroku you run "npm install" then after that run "npm start" then go to localhost:3000
+To use this outside of Heroku run "npm install" then after that run "npm start" then go to localhost:3000.
