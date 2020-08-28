@@ -1,6 +1,6 @@
 body {
     background-color: rgb(237, 118, 38);
-    background: linear-gradient(to top,rgb(255, 120, 31),rgb(255, 153, 0));
+    background: linear-gradient(to top left,#faac5e,#FFCF62);
     background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     color: white;
