@@ -7,6 +7,6 @@ We do not log tokens on our servers. If you are still unsure about this feel fre
 
 AutoLevelBotV3 can be found hosted on heroku at https://autolevelbotv3.herokuapp.com.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MasonTheCreeper/AutoLevelBotV3)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Parritz/AutoLevelBotV3)
 
 To use this outside of Heroku run "npm install" then after that run "npm start" then go to localhost:3000.
