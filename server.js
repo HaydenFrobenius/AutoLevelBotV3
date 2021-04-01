@@ -10,7 +10,7 @@ const server = express()
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 const io = socketIO(server);
-const Discord = require('discord.js');
+const Discord = require('selfbot-discord.js');
 
 const clients = {}
 

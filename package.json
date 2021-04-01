@@ -11,11 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "discord.js": "^11.3.0",
     "express": "^4.17.1",
     "https": "^1.0.0",
     "path": "^0.12.7",
     "require.js": "^1.0.0",
+    "selfbot-discord.js": "^12.5.2",
     "socket.io": "^2.4.0"
   },
   "devDependencies": {
