@@ -34,7 +34,7 @@ io.on('connection', (socket) => {
         client.on('ready', () => {
             // Client is ready!
 
-            var channel = client.channels.get(channelID);
+            var channel = client.channels.cache.get(channelID);
 
             if (channel == null) {
                 socket.emit('changeResult',"Invalid channel ID!");

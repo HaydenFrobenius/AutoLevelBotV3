@@ -48,6 +48,7 @@ window.onload = function() {
                 }*/
 
                 socket.emit('startBot', discordToken,channelID,message);
+                result("Starting bot...");
             }
         } else {
             // App is already started, lets end it.
